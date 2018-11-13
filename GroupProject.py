@@ -88,5 +88,5 @@ button4.grid(row = 3, column = 1, sticky = S+N+E+W)
 
 button9 = Button(gui, text = "", font= "Times 26 bold", height = 4, width = 8, command=lambda:checker(button9))
 button9.grid(row = 3, column = 2, sticky = S+N+E+W)
-
+#hi
 gui.mainloop()
