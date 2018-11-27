@@ -4,7 +4,7 @@
 from tkinter import *
 
 #Import box that will show up
-import tkinter.messagebox
+#import tkinter.messagebox // python 3
 
 gui = Tk()
 
@@ -13,7 +13,7 @@ gui.title("Brandon and Tommy's Tic, Tac, Toe Game")
 clicker = True
 
 def checker(buttons):
-    global clicked
+    global clicker
     clicker = True
 
     #If button text is empty, and click is true (player 1, or X), put an X in the button
