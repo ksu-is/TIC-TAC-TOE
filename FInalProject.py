@@ -29,7 +29,7 @@ def clicked1():
             turn=1
             btn1["text"]="O"
         check()   
-    winsound.PlaySound('Clicking-sound-effect', winsound.SND_FILENAME)
+    winsound.PlaySound('Clicking-sound-effect', winsound.SND_FILENAME) #Play clicking sound effect when players clicks button
 
 def clicked2():
     global turn
@@ -41,7 +41,7 @@ def clicked2():
             turn=1
             btn2["text"]="O"
         check()
-    winsound.PlaySound('Clicking-sound-effect', winsound.SND_FILENAME)
+    winsound.PlaySound('Clicking-sound-effect', winsound.SND_FILENAME) #Play clicking sound effect when players clicks button
       
 def clicked3():
     global turn
@@ -53,7 +53,7 @@ def clicked3():
             turn=1
             btn3["text"]="O"
         check()
-    winsound.PlaySound('Clicking-sound-effect', winsound.SND_FILENAME)
+    winsound.PlaySound('Clicking-sound-effect', winsound.SND_FILENAME) #Play clicking sound effect when players clicks button
     
 def clicked4():
     global turn
@@ -65,7 +65,7 @@ def clicked4():
             turn=1
             btn4["text"]="O"
         check()
-    winsound.PlaySound('Clicking-sound-effect', winsound.SND_FILENAME)
+    winsound.PlaySound('Clicking-sound-effect', winsound.SND_FILENAME) #Play clicking sound effect when players clicks button
     
 def clicked5():
     global turn
@@ -77,7 +77,7 @@ def clicked5():
             turn=1
             btn5["text"]="O"
         check()
-    winsound.PlaySound('Clicking-sound-effect', winsound.SND_FILENAME)
+    winsound.PlaySound('Clicking-sound-effect', winsound.SND_FILENAME) #Play clicking sound effect when players clicks button
 
 def clicked6():
     global turn
@@ -89,7 +89,7 @@ def clicked6():
             turn=1
             btn6["text"]="O"
         check()
-    winsound.PlaySound('Clicking-sound-effect', winsound.SND_FILENAME)
+    winsound.PlaySound('Clicking-sound-effect', winsound.SND_FILENAME) #Play clicking sound effect when players clicks button
 
 def clicked7():
     global turn
@@ -101,7 +101,7 @@ def clicked7():
             turn=1
             btn7["text"]="O"
         check()
-    winsound.PlaySound('Clicking-sound-effect', winsound.SND_FILENAME)
+    winsound.PlaySound('Clicking-sound-effect', winsound.SND_FILENAME) #Play clicking sound effect when players clicks button
 
 def clicked8():
     global turn
@@ -113,7 +113,7 @@ def clicked8():
             turn=1
             btn8["text"]="O"
         check()
-    winsound.PlaySound('Clicking-sound-effect', winsound.SND_FILENAME)
+    winsound.PlaySound('Clicking-sound-effect', winsound.SND_FILENAME) #Play clicking sound effect when players clicks button
     
 def clicked9():
     global turn
@@ -125,7 +125,7 @@ def clicked9():
             turn=1
             btn9["text"]="O"
         check()
-    winsound.PlaySound('Clicking-sound-effect', winsound.SND_FILENAME)
+    winsound.PlaySound('Clicking-sound-effect', winsound.SND_FILENAME) #Play clicking sound effect when players clicks button
 
 def clicked10():
     global turn
@@ -137,7 +137,7 @@ def clicked10():
             turn = 1
             btn10["text"] = "O"
         check()
-    winsound.PlaySound('Clicking-sound-effect', winsound.SND_FILENAME)
+    winsound.PlaySound('Clicking-sound-effect', winsound.SND_FILENAME) #Play clicking sound effect when players clicks button
 
 def clicked11():
     global turn
@@ -149,7 +149,7 @@ def clicked11():
             turn = 1
             btn11["text"] = "O"
         check()
-    winsound.PlaySound('Clicking-sound-effect', winsound.SND_FILENAME)    
+    winsound.PlaySound('Clicking-sound-effect', winsound.SND_FILENAME) #Play clicking sound effect when players clicks button     
 
 def clicked12():
     global turn
@@ -161,7 +161,7 @@ def clicked12():
             turn = 1
             btn12["text"] = "O"
         check()
-    winsound.PlaySound('Clicking-sound-effect', winsound.SND_FILENAME)
+    winsound.PlaySound('Clicking-sound-effect', winsound.SND_FILENAME) #Play clicking sound effect when players clicks button 
 
 def clicked13():
     global turn
@@ -173,7 +173,7 @@ def clicked13():
             turn = 1
             btn13["text"] = "O"
         check()
-    winsound.PlaySound('Clicking-sound-effect', winsound.SND_FILENAME)
+    winsound.PlaySound('Clicking-sound-effect', winsound.SND_FILENAME) #Play clicking sound effect when players clicks button
 
 def clicked14():
     global turn
@@ -185,7 +185,7 @@ def clicked14():
             turn = 1
             btn14["text"] = "O"
         check()
-    winsound.PlaySound('Clicking-sound-effect', winsound.SND_FILENAME)
+    winsound.PlaySound('Clicking-sound-effect', winsound.SND_FILENAME) #Play clicking sound effect when players clicks button
 
 def clicked15():
     global turn
@@ -197,7 +197,7 @@ def clicked15():
             turn = 1
             btn15["text"] = "O"
         check()
-    winsound.PlaySound('Clicking-sound-effect', winsound.SND_FILENAME)
+    winsound.PlaySound('Clicking-sound-effect', winsound.SND_FILENAME) #Play clicking sound effect when players clicks button
 
 def clicked16():
     global turn
@@ -209,7 +209,7 @@ def clicked16():
             turn = 1
             btn16["text"] = "O"
         check()
-    winsound.PlaySound('Clicking-sound-effect', winsound.SND_FILENAME)
+    winsound.PlaySound('Clicking-sound-effect', winsound.SND_FILENAME) #Play clicking sound effect when players clicks button 
     
 flag=1
 def check():
@@ -276,13 +276,14 @@ def check():
     #Condition for tie (flag counts number of x's or o's placed)
     if flag == 17:
         messagebox.showinfo("Tie", "Match Tied!!! Try Again :)")
+        winsound.PlaySound('ridiculous', winsound.SND_FILENAME) # plays sound effect saying 'this is ridiculous' when the game ends in a tie
         window.destroy()
 
 #Method called when player (X or O) wins)
 def win(player):  
     ans = "Game Complete " + player + " wins. \n Thanks for playing our Game - Thomas and Brandon "
     messagebox.showinfo("Congratulations", ans)
-    winsound.PlaySound('clap', winsound.SND_FILENAME)
+    winsound.PlaySound('clap', winsound.SND_FILENAME) #round of applause sound effects plays when player X or O wins the game
     window.destroy() #used to close the program
 
 
