@@ -1,3 +1,7 @@
+#Created by: Tommy Gray and Brandon Fernandez
+#TIC,TAC,TOE 
+#Application Development 1
+#12/4/18
 import winsound
 
 
