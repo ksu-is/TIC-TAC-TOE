@@ -10,7 +10,6 @@ from tkinter import messagebox
 window =Tk()
 
 
-
 window.title("Welcome to Tommy  and Brandon's Tic Tac Toe Game")
 window.geometry("550x300")
 
@@ -299,25 +298,25 @@ btn1.grid(column=1, row=1)
 btn2 = Button(window, text=" ", bg= "yellow", fg="Black",width=3,height=1,font=('Helvetica','20'),command=clicked2)
 btn2.grid(column=2, row=1)
 
-btn3 = Button(window, text=" ", bg= "black", fg="yellow",width=3,height=1,font=('Helvetica','20'),command=clicked3)
+btn3 = Button(window, text=" ", bg= "yellow", fg="black",width=3,height=1,font=('Helvetica','20'),command=clicked3)
 btn3.grid(column=3, row=1)
 
-btn4 = Button(window, text=" ", bg= "yellow", fg="Black",width=3,height=1,font=('Helvetica','20'),command=clicked4)
+btn4 = Button(window, text=" ", bg= "black", fg="yellow",width=3,height=1,font=('Helvetica','20'),command=clicked4)
 btn4.grid(column=4, row=1)
 
-btn5 = Button(window, text=" ", bg= "black", fg="yellow",width=3,height=1,font=('Helvetica','20'),command=clicked5)
+btn5 = Button(window, text=" ", bg= "yellow", fg="black",width=3,height=1,font=('Helvetica','20'),command=clicked5)
 btn5.grid(column=1, row=2)
 
 btn6 = Button(window, text=" ", bg= "yellow", fg="Black",width=3,height=1,font=('Helvetica','20'),command=clicked6)
 btn6.grid(column=2, row=2)
 
-btn7 = Button(window, text=" ", bg= "black", fg="yellow",width=3,height=1,font=('Helvetica','20'),command=clicked7)
+btn7 = Button(window, text=" ", bg= "yellow", fg="black",width=3,height=1,font=('Helvetica','20'),command=clicked7)
 btn7.grid(column=3, row=2)
 
 btn8 = Button(window, text=" ", bg= "yellow", fg="Black",width=3,height=1,font=('Helvetica','20'),command=clicked8)
 btn8.grid(column=4, row=2)
 
-btn9 = Button(window, text=" ", bg= "black", fg="yellow",width=3,height=1,font=('Helvetica','20'),command=clicked9)
+btn9 = Button(window, text=" ", bg= "yellow", fg="black",width=3,height=1,font=('Helvetica','20'),command=clicked9)
 btn9.grid(column=1, row=3)
 
 btn10 = Button(window, text=" ",bg="yellow", fg="black", width=3, height=1,font=('Helvetica','20'),command=clicked10)
@@ -329,7 +328,7 @@ btn11.grid(column=3, row = 3)
 btn12 = Button(window, text=" ",bg="yellow", fg="black", width=3, height=1,font=('Helvetica','20'),command=clicked12)
 btn12.grid(column=4, row = 3)
 
-btn13 = Button(window, text=" ",bg="yellow", fg="black", width=3, height=1,font=('Helvetica','20'),command=clicked13)
+btn13 = Button(window, text=" ",bg="black", fg="yellow", width=3, height=1,font=('Helvetica','20'),command=clicked13)
 btn13.grid(column=1, row = 4)
 
 btn14 = Button(window, text=" ",bg="yellow", fg="black", width=3, height=1,font=('Helvetica','20'),command=clicked14)
@@ -338,7 +337,7 @@ btn14.grid(column=2, row = 4)
 btn15 = Button(window, text=" ",bg="yellow", fg="black", width=3, height=1,font=('Helvetica','20'),command=clicked15)
 btn15.grid(column=3, row = 4)
 
-btn16 = Button(window, text=" ",bg="yellow", fg="black", width=3, height=1,font=('Helvetica','20'),command=clicked16)
+btn16 = Button(window, text=" ",bg="black", fg="yellow", width=3, height=1,font=('Helvetica','20'),command=clicked16)
 btn16.grid(column=4, row = 4)
 
 window.mainloop()
